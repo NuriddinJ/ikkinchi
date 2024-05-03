@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+label,a,span{
+    display: inline-block;
+}
+img{
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+.katta{
+    background-image:linear-gradient(rgba(0, 0, 255, 0.388),rgba(0, 0, 255, 0.388)), url(survey-form-background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px;
+}
+.div{
+    max-width: 500px;
+    padding: 20px;
+    background-color: rgba(7, 7, 13, 0.83);
+    margin: auto;
+}
+.div3{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.h1{
+    color: white;
+}
+.lbl{
+    width: 100%;
+    color: white;
+    margin-bottom: 2px;
+    margin-top: 15px;
+}
+.m{
+    height: auto;
+}
+.inp{
+    width: 100%;
+    border-radius: 5px;
+    right: 0;
+}
+.inp1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.inp2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.span1{
+    color: aliceblue;
+    padding: 2px 10px;
+    
+}
+.span2{
+    color: aliceblue;
+    padding: 2px 10px;
+}
+.btn{
+    width: 100%;
+    text-align: center;
+    background-color: green;
+    font-size: 20px;
+    border: none;
+    color: aliceblue;
+}
+.p{
+    color: white;
+}
+.div1{
+    display: flex;
+}
+@media (max-width:670px){
+    .div{
+        max-width: 350px;
+    }
+    .h1{
+        font-size:30px;
+    }
+    .p{
+        font-size: 15px;
+    }
+    .katta{
+        padding: 50px;
+    }
+}
+@media (max-width:400px){
+    .div{
+        max-width: 350px;
+    }
+    .h1{
+        font-size:25px;
+    }
+    .p{
+        font-size: 15px;
+    }
+    .katta{
+        padding: 15px;
+    }
+}
